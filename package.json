@@ -1,6 +1,6 @@
 {
   "name": "kad-boilerplate",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Some simple boiler plate so I don't have to rewrite build scripts every damn project.",
   "main": "index.js",
   "repository": {
