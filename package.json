@@ -1,6 +1,6 @@
 {
   "name": "kad-boilerplate",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Some simple boiler plate so I don't have to rewrite build scripts every damn project.",
   "main": "index.js",
   "repository": {
@@ -8,13 +8,16 @@
     "url": "https://github.com/kyldvs/boilerplate"
   },
   "scripts": {
-    "build": "echo"
+    "build": "gulp build"
   },
   "license": "MIT",
   "dependencies": {
     "del": "^2.0.2",
     "fbjs-scripts": "^0.2.1",
-    "gulp-babel": "^5.2.1",
+    "gulp-babel": "^5.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
     "nuclide-node-transpiler": "0.0.32"
   }
 }
