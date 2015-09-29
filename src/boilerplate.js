@@ -7,7 +7,6 @@ import babel from 'gulp-babel';
 import babelPluginDEV from 'fbjs-scripts/babel/dev-expression';
 import babelPluginModules from 'fbjs-scripts/babel/rewrite-modules';
 import del from 'del';
-import gulp from 'gulp';
 
 const EMPTY_OBJ = {};
 
@@ -36,7 +35,7 @@ const DEFAULT_BABEL_OPTIONS = {
  * appropriate gulp tasks. Note that you will still need to have a gulpfile.js
  * that calls this function in order to set up each project.
  */
-function boilerplate(options: Options): void {
+function boilerplate(gulp: any, options: Options): void {
   let {paths} = options;
 
   // Construct babel options based on defaults and input.

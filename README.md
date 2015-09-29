@@ -13,7 +13,9 @@ npm install --save-dev gulp kad-boilerplate
 Then create `gulpfile.js` where you can configure the boilerplate:
 
 ```javascript
-require('kad-boilerplate')({
+var gulp = require('gulp');
+
+require('kad-boilerplate')(gulp, {
   paths: {
     dest: 'lib',
     src: [
