@@ -7,9 +7,15 @@ var gulp = require('gulp');
 
 require('./src/boilerplate')(gulp, {
   paths: {
+    // For compiling src to lib.
     dest: 'lib',
     src: [
       'src/**/*.js',
     ],
+
+    // For webpack.
+    dist: './dist/',
+    entry: './index.js',
+    name: 'index',
   },
 });

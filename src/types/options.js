@@ -6,5 +6,9 @@ export type Options = {
   paths: {
     src: Array<string>,
     dest: string,
+
+    dist: string,
+    entry: string,
+    name: string,
   },
 };

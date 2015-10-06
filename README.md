@@ -42,3 +42,7 @@ Cleans the project based on `dest` option.
 ### `default`
 
 Alias for the `build` step so that `gulp` will work without any arguments.
+
+### `dist`
+
+Compiles everything starting at the file `${entry}` into `${dist}/${name}.js`. When the script is included on a page the source will also be available as a global variable called `${name}`.

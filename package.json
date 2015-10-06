@@ -1,6 +1,6 @@
 {
   "name": "kad-boilerplate",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Some simple boiler plate so I don't have to rewrite build scripts every damn project.",
   "main": "index.js",
   "repository": {
@@ -12,9 +12,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
     "del": "^2.0.2",
     "fbjs-scripts": "^0.2.1",
-    "gulp-babel": "^5.2.1"
+    "gulp-babel": "^5.2.1",
+    "gulp-util": "^3.0.6",
+    "webpack": "^1.12.2",
+    "webpack-stream": "^2.1.1"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
