@@ -80,8 +80,6 @@ function buildDist(opts) {
     },
     output: {
       filename: opts.name + '.js',
-      libraryTarget: 'umd',
-      library: opts.name,
     },
     plugins: [
       new webpackStream.webpack.DefinePlugin({
